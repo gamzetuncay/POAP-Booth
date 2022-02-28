@@ -1,43 +1,47 @@
 {
-  "display": {
-    "title": "interactive-text",
-    "favicon": "favicon_asset"
-  },
-  "contact": {
-    "name": "author-name",
-    "email": ""
-  },
-  "owner": "",
-  "scene": {
-    "parcels": ["-133,-40"],
-    "base": "-133,-40"
-  },
-  "communications": {
-    "type": "webrtc",
-    "signalling": "https://signalling-01.decentraland.org"
-  },
-  "policy": {
-    "contentRating": "E",
-    "fly": true,
-    "voiceEnabled": true,
-    "blacklist": []
-  },
-  "main": "bin/game.js",
-  "tags": [],
-  "spawnPoints": [
-    {
-      "name": "spawn1",
-      "default": true,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "cameraTarget": {
-        "x": 8,
-        "y": 1,
-        "z": 8
-      }
-    }
-  ]
+    "display": {
+        "title": "My Cool Scene",
+        "description": "You won't believe how cool this scene is",
+        "navmapThumbnail": "images/scene-thumbnail.png",
+        "favicon": "favicon_asset"
+    },
+    "contact": {
+        "name": "gamgam",
+        "email": "gamzemetalmarket@gmail.com"
+    },
+    "owner": "",
+    "scene": {
+        "parcels": ["-112,-43"],
+        "base": "-112,-43"
+    },
+    "communications": {
+        "type": "webrtc",
+        "signalling": "https://signalling-01.decentraland.org"
+    },
+    "featureToggles": {
+        "voiceChat": "disabled"
+    },
+    "requiredPermissions": ["ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"],
+    "policy": {
+        "contentRating": "E",
+        "fly": true,
+        "voiceEnabled": true,
+        "blacklist": []
+    },
+    "main": "bin/game.js",
+    "tags": [],
+    "spawnPoints": [{
+        "name": "spawn1",
+        "default": true,
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "cameraTarget": {
+            "x": 8,
+            "y": 1,
+            "z": 8
+        }
+    }]
 }
